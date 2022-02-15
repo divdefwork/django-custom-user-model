@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% if user.is_authenticated %}
+        Ви ввійшли в систему {{ user.username }}!
+        <p>
+            <a href="{% url 'accounts:logout' %}">
+                Вийти
+            </a>
+        </p>
+    {% else %}
+        <p>Ви не ввійшли в систему</p>
+        <a href="{% url 'accounts:login' %}">
+            Увійти
+        </a> |
+        <a href="{% url 'accounts:signup' %}">
+            Зареєструватися
+        </a>
+    {% endif %}
+{% endblock %}
