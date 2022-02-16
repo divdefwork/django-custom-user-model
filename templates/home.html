@@ -4,17 +4,27 @@
     {% if user.is_authenticated %}
         Ви ввійшли в систему {{ user.username }}!
         <p>
-            <a href="{% url 'accounts:logout' %}">
-                Вийти
+            <a href="{% url 'accounts:logout' %}" class="button is-info is-small">
+                <span class="icon">
+                    <i class="fas fa-sign-out-alt"></i>
+                </span>
+                <span>Вийти</span>
+
             </a>
         </p>
     {% else %}
         <p>Ви не ввійшли в систему</p>
-        <a href="{% url 'accounts:login' %}">
-            Увійти
-        </a> |
-        <a href="{% url 'accounts:signup' %}">
-            Зареєструватися
+        <a href="{% url 'accounts:login' %}" class="button is-info">
+            <span>Увійти</span>
+            <span class="icon">
+                <i class="fas fa-sign-in-alt"></i>
+            </span>
+        </a>
+        <a href="{% url 'accounts:signup' %}" class="button is-info">
+            <span>Зареєструватися</span>
+            <span class="icon">
+                <i class="fas fa-user-plus"></i>
+            </span>
         </a>
     {% endif %}
 {% endblock %}

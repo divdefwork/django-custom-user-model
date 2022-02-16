@@ -1,12 +1,22 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h2>Зареєструватися</h2>
 
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Зареєструватися</button>
-    </form>
+    <div class="columns">
+        <div class="column is-4 is-offset-4">
+            <h2>Зареєструватися</h2>
+
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="button is-info">
+            <span>Зареєструватися</span>
+                    <span class="icon">
+                <i class="fas fa-user-plus"></i>
+            </span>
+                </button>
+            </form>
+        </div>
+    </div>
 
 {% endblock content %}
