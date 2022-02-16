@@ -23,5 +23,6 @@ branch: __master__
 branch: **custom_branch**
 
 **Дизайн**
-- [Bulma Login Page](https://www.tutorialsplane.com/bulma-login-page/)
+- [Free Bulma Templates](https://bulmatemplates.github.io/bulma-templates/)
+- [Bulma Login](https://bulmatemplates.github.io/bulma-templates/templates/login.html)
 
