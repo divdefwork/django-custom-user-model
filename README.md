@@ -1,4 +1,4 @@
-
+branch: __master__
 - ### ✅ [Django: користувальницька модель користувача, що розширює AbstractUser.](https://dontrepeatyourself.org/post/django-custom-user-model-extending-abstractuser/)
     __[GitHub.](https://github.com/Rouizi/django-custom-user-model)__
 
@@ -17,3 +17,9 @@
 - [Подальше читання]()
 
 </details>
+
+---
+
+branch: **custom_branch**
+
+Дизайн

@@ -6,7 +6,6 @@ isort==5.10.1
 lazy-object-proxy==1.7.1
 mccabe==0.7.0
 platformdirs==2.5.0
-pylint==2.12.2
 python-decouple==3.6
 sqlparse==0.4.2
 toml==0.10.2
