@@ -23,3 +23,5 @@ branch: __master__
 branch: **custom_branch**
 
 Дизайн
+- [Bulma Login Page](https://www.tutorialsplane.com/bulma-login-page/)
+
